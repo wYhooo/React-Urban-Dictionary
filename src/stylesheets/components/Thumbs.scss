@@ -1,0 +1,15 @@
+.thumb {
+  display: inline-block;
+  height: .5rem;
+  margin-right: .5rem;
+  font-size: .4rem;
+  .thumbNum {
+    display: inline-block;
+    vertical-align: top;
+  }
+  svg {
+    display: inline-block;
+    width: .5rem;
+    margin-right: .2rem;
+  }
+}

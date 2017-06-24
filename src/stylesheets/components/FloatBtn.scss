@@ -1,0 +1,35 @@
+.floatBtn {
+  position: fixed;
+  right: .5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  border-radius: 50%;
+  background: #00f;
+  box-shadow: 0 5px 2px 2px rgba(0, 0, 0, 0.25);
+  &:hover {
+    box-shadow: none;
+  }
+  svg {
+    width: .6rem;
+    height: .6rem;
+    fill: #fff;
+  }
+}
+
+.randomBtn {
+  bottom: 1rem;
+}
+
+.backToTopBtn {
+  bottom: 3rem;
+}
+
+.svgIcon {
+  text-align: center;
+}
+
+.svgIcon svg {
+  display: inline-block;
+  vertical-align: middle;
+}
